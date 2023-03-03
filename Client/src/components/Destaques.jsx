@@ -8,12 +8,12 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="src/img/roma.jfif" width={300} height={300} />
                     <Card.Body>
-                        <Card.Title>Fácil de usar</Card.Title>
+                        <Card.Title>Conheça nossos destinos!</Card.Title>
                         <Card.Text>
-                            O EstudoApp é muito fácil de usar. Você pode criar suas próprias listas de estudo!
+                           bla bla bla texto sobre viagem bla bla bla 
                         </Card.Text>
-                        <LinkContainer to="/">
-                            <Button variant="warning">Acessar o EstudoApp</Button>
+                        <LinkContainer to="/Login">
+                            <Button variant="warning">Login</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
@@ -22,9 +22,9 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="src/img/espanha.jpg" width={300} height={300} />
                     <Card.Body>
-                        <Card.Title>Rápido e confiável</Card.Title>
+                        <Card.Title>  To sem ideia </Card.Title>
                         <Card.Text>
-                            O EstudoApp é muito rápido e confiável. Seus dados são armazenados em servidores seguros.
+                           ???????????????????????????????
                         </Card.Text>
                         <LinkContainer to="/funcionalidades">
                             <Button variant="warning">Conheça mais</Button>
@@ -36,9 +36,9 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="src/img/londres.jpg" width={300} height={300} />
                     <Card.Body>
-                        <Card.Title>Suporte personalizado</Card.Title>
+                        <Card.Title>Contato</Card.Title>
                         <Card.Text>
-                            O EstudoApp oferece suporte personalizado para você. Entre em contato conosco e tire suas dúvidas.
+                            Deixe sua dúvida ou sugestão, entraremos em contato assim que possível!
                         </Card.Text>
                         <LinkContainer to="/contato">
                         <Button variant="warning">Entre em contato</Button>

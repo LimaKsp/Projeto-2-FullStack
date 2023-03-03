@@ -7,7 +7,6 @@ import Rotas from './routes/Rotas.jsx'
 function App() {
     return (
         <div className="App">
-            <Menu />
             <Rotas />
             <Rodape />
         </div>

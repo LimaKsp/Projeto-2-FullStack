@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import CmsApi from '../api/CmsApi'
+import Menu from '../components/Menu'
 
 function Login() {
 
@@ -19,11 +20,12 @@ function Login() {
 
         const dados = await retorno.json()
         localStorage.setItem('token', dados.token)
-        window.location.href = '/admin/funcionalidades'
+        window.location.href = '/funcionalidades'
     }
 
     return (
         <Container className='conteudo-margin'>
+        <Menu/>
         <h1>Login</h1>
 
         <Form onSubmit={handleSubmit}>
@@ -36,7 +38,7 @@ function Login() {
                     <Form.Control type="password" placeholder="Digite sua senha" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
+                <Button variant="info" type="submit">
                     Realizar Login
                 </Button>
             </Form>

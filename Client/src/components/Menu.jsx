@@ -6,10 +6,14 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 function Menu() {
 
-    return (<Navbar collapseOnSelect expand="md"  variant="dark" fixed="top" >
+    return (<Navbar    collapseOnSelect
+        expand="md"
+        className="bg-dark navbar-light"
+        variant="dark"
+        fixed="top" >
         <Container>
             <LinkContainer to="/">
-                <Navbar.Brand>Localiza Tour</Navbar.Brand>
+                <Navbar.Brand>TourTrip</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,13 +24,18 @@ function Menu() {
                     <LinkContainer to="/sobre">
                         <Nav.Link>Sobre</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/funcionalidades">
-                        <Nav.Link>Funcionalidades</Nav.Link>
-                    </LinkContainer>
                     <LinkContainer to="/contato">
                         <Nav.Link>Contato</Nav.Link>
                     </LinkContainer>
                 </Nav>
+                <Nav expand="md" className="ms-auto">
+            <LinkContainer to="/login">
+              <Nav.Link variant="outline-light">Login</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/">
+              <Nav.Link variant="outline-light">Cadastro</Nav.Link>
+            </LinkContainer>
+          </Nav>
             </Navbar.Collapse>
         </Container>
     </Navbar>)

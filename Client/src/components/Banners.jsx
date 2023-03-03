@@ -6,9 +6,9 @@ function Banners() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="src/img/turquia.jpg"
+                    src=".\src\img\cascata.jpg"
                     width={1500}
-                    height={300}
+                    height={400}
                     alt="Imagem1"
                 />
                 <Carousel.Caption>
@@ -18,9 +18,9 @@ function Banners() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="src/img/paraty.jpg"
-                    width={600}
-                    height={600}
+                    src=".\src\img\cataratas.jpg"
+                    width={1500}
+                    height={400}
                     alt="imagem2"
                 />
                 <Carousel.Caption>
@@ -30,15 +30,11 @@ function Banners() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://via.placeholder.com/1500x300/ffd000"
+                    src=".\src\img\lenco.jpg"
+                    width={1500}
+                    height={400}
                     alt="imagem3"
                 />
-                <Carousel.Caption>
-                    <h5>Contato para parcerias?</h5>
-                    <p>
-                        Entre em contato com a nossa equipe para conversar sobre oportunidades de parceria
-                    </p>
-                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     )

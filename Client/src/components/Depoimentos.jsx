@@ -10,10 +10,10 @@ function Depoimentos() {
                 <img src="src/img/img1.jpg" alt="Foto do depoimento" className='rounded' width={150} height={150} />
             </Col>
             <Col sm="12" md="10">
-                <strong>Depoimento 1</strong>
+                <strong>Camila Andrade </strong>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus at voluptate voluptatibus illo ad vel ut numquam, quas sunt hic esse, dolore recusandae est vero quod minima eius repellat."
+                    Desde que conheci a TourTrip,minha vida mudou!<br />
+                    O dinâmismo para criar planos e organizar minhas viagens é simplesmente incrível!
                 </p>
             </Col>
         </Row>
@@ -22,7 +22,7 @@ function Depoimentos() {
                     <img src="src/img/img2.jpg" alt="Foto do depoimento2" className='rounded' width={150} height={150} />
             </Col>
             <Col sm="12" md="10">
-                <strong>Depoimento 2</strong>
+                <strong>Rogerinho do Querô</strong>
                 <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus at voluptate voluptatibus illo ad vel ut numquam, quas sunt hic esse, dolore recusandae est vero quod minima eius repellat."

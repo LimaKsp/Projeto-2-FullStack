@@ -1,5 +1,6 @@
 import {Container, Button, Form} from 'react-bootstrap'
 import Depoimentos from '../components/Depoimentos'
+import Menu from '../components/Menu'
 
 function Contato() {
 
@@ -10,6 +11,8 @@ function Contato() {
     }
 
     return (
+        <>
+         <Menu />
         <Container className='conteudo-margin'>
             <h1>Contato</h1>
             <p>Entre em contato conosco</p>
@@ -31,9 +34,8 @@ function Contato() {
                     Enviar contato
                 </Button>
             </Form>
-
-            <Depoimentos />
         </Container>
+        </>
     );
 }
 
